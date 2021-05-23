@@ -12,7 +12,7 @@ sudo add-apt-repository \
    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
    $(lsb_release -cs) \
    stable"
-#apt-get update
+#install docker
 apt-get install docker-ce docker-ce-cli containerd.io -y
 systemctl enable docker
 systemctl start docker
